@@ -47,3 +47,20 @@ The dataset includes weekly sales and contextual variables such as holiday weeks
 
 ## References
 - Patel, R. (2022). Walmart dataset retail [Data set]. Kaggle.
+- ## Results (Visual Insights)
+
+The analysis produced the following key visual outputs:
+
+- Time series forecast of average weekly sales
+- Comparison of holiday vs non-holiday weekly sales (Store 1)
+- Moving average comparison between Store 1 and Store 2
+
+Key patterns observed:
+- Clear seasonal spikes during holiday periods
+- Higher volatility in Store 1 compared to Store 2
+- More stable long-term trend observed in Store 2
+- ![Average Sales All Stores](outputs/forecast.png)
+![Holiday Effect On Sales](outputs/holiday_vs_nonholiday.png)
+![Store 1 MA](outputs/moving_average_store1_store2.png)
+
+
