@@ -63,5 +63,3 @@ Key patterns observed:
 ![Holiday Effect On Sales](outputs/Holiday Effect On Sales.png)
 ![Store 1 MA](outputs/Store 1 MA.png)
 ![Store 2 MA](outputs/Store 2 MA.png)
-
-
