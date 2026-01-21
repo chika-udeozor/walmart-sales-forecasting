@@ -59,7 +59,13 @@ Key patterns observed:
 - Clear seasonal spikes during holiday periods
 - Higher volatility in Store 1 compared to Store 2
 - More stable long-term trend observed in Store 2
-- ![Average Sales All Stores](outputs/Average Sales All Stores.png)
-![Holiday Effect On Sales](outputs/Holiday Effect On Sales.png)
-![Store 1 MA](outputs/Store 1 MA.png)
-![Store 2 MA](outputs/Store 2 MA.png)
+### Sales Forecast – All Stores
+![Average Weekly Sales Forecast](outputs/average_sales_all_stores.png)
+
+### Holiday vs Non-Holiday Sales (Store 1)
+![Holiday Effect on Sales](outputs/holiday_effect_on_sales.png)
+
+### Moving Average Comparison
+![Store 1 Moving Average](outputs/store_1_moving_average.png)
+![Store 2 Moving Average](outputs/store_2_moving_average.png)
+
