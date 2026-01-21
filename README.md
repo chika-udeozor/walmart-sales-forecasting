@@ -1,10 +1,6 @@
 # walmart-sales-forecasting
 Time series analysis and sales forecasting of Walmart store data using Excel Workbook.  Includes demand trend analysis, holiday vs non-holiday comparisons, and store-level  moving average analysis to support inventory and staffing decisions.
 
-## Team
-- Chika Udeozor
-- Damian Ozobokeme
-
 ## Project Overview
 This project analyzes historical Walmart weekly sales (45 U.S. stores) together with economic indicators to:
 1) Forecast average weekly sales for the next 12 months  
