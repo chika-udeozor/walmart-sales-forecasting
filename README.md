@@ -26,6 +26,11 @@ The dataset includes weekly sales and contextual variables such as holiday weeks
 - Store 2 (24-week MA) shows declining weekly sales, while Store 1 is more stable.
 - Both stores show seasonality and major spikes around late November/December.
 - Store 1 appears more volatile, suggesting higher sensitivity to promotions/holidays/local demand.
+  
+## Tools Used
+- Excel (data cleaning, exploration, forecasting)
+- Analytical techniques: time series forecasting, moving averages
+
 
 ## Data Cleaning Summary
 - Verified and corrected data types (date formats; numeric formats and decimals)
@@ -33,21 +38,7 @@ The dataset includes weekly sales and contextual variables such as holiday weeks
 - Checked duplicates using remove duplicates
 - Checked numeric columns for invalid negative values
 
-## Recommendations
-- Increase inventory and staffing before seasonal peaks (holiday periods)
-- Reduce excess stock and adjust staffing during non-holiday periods to control costs
-- Use Store 2 as a benchmark for store-level planning
-- Apply stricter forecasting controls for Store 1 to reduce volatility and improve stock readiness
-
-## Deliverables
-- Forecast results (time series)
-- Holiday vs non-holiday comparison (Store 1)
-- Moving average comparisons (Store 1 vs Store 2)
-- Data dictionary + ERD (as referenced in slides)
-
-## References
-- Patel, R. (2022). Walmart dataset retail [Data set]. Kaggle.
-- ## Results (Visual Insights)
+ ## Results (Visual Insights)
 
 The analysis produced the following key visual outputs:
 
@@ -69,3 +60,35 @@ Key patterns observed:
 ![Store 1 Moving Average](outputs/store_1_moving_average.png)
 ![Store 2 Moving Average](outputs/store_2_moving_average.png)
 
+## Recommendations
+- Increase inventory and staffing before seasonal peaks (holiday periods)
+- Reduce excess stock and adjust staffing during non-holiday periods to control costs
+- Use Store 2 as a benchmark for store-level planning
+- Apply stricter forecasting controls for Store 1 to reduce volatility and improve stock readiness
+
+## Deliverables
+- Forecast results (time series)
+- Holiday vs non-holiday comparison (Store 1)
+- Moving average comparisons (Store 1 vs Store 2)
+- Data dictionary + ERD (as referenced in slides)
+
+## Project Summary
+This project applied time series forecasting and descriptive analytics to Walmart retail
+sales data to identify demand patterns, seasonal trends, and store-level differences.
+The results support data-driven decisions for inventory planning, staffing, and demand
+forecasting across multiple store locations.
+
+## How to Reproduce
+1. Open the dataset in the `data/` folder.
+2. Review the Excel worksheets used for:
+   - Sales forecasting
+   - Holiday vs non-holiday comparison
+   - Moving average analysis
+3. View exported charts in the `outputs/` folder.
+
+## Data Source
+- Walmart Retail Dataset – Kaggle  
+  https://www.kaggle.com/datasets/rutuspatel/walmart-dataset-retail
+
+## References
+- Patel, R. (2022). Walmart dataset retail [Data set]. Kaggle.
