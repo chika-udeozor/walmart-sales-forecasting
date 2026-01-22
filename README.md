@@ -86,6 +86,10 @@ forecasting across multiple store locations.
    - Moving average analysis
 3. View exported charts in the `outputs/` folder.
 
+## Project Status
+Completed – academic analytics project demonstrating time series analysis and forecasting concepts.
+
+
 ## Data Source
 - Walmart Retail Dataset – Kaggle  
   https://www.kaggle.com/datasets/rutuspatel/walmart-dataset-retail
