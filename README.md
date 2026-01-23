@@ -1,5 +1,6 @@
 # walmart-sales-forecasting
-Time series analysis and sales forecasting of Walmart store data using structured analytical methods.
+Time series analysis and sales forecasting of Walmart store data using structured analytical methods to support retail planning decisions.
+
 The project includes demand trend analysis, holiday vs non-holiday comparisons, and store-level
 moving average analysis to support inventory and staffing decisions.
 
@@ -13,7 +14,8 @@ This project analyzes historical Walmart weekly sales (45 U.S. stores) together 
 The dataset includes weekly sales and contextual variables such as holiday weeks, temperature, fuel price, CPI, and unemployment.  
 (Source: Kaggle Walmart dataset retail)  
 
-## Business Questions
+## Business Questions & Analytical Objectives
+
 ### Q1: What will the average weekly sales of all Walmart stores be for the next 12 months?
 - A time series forecast was used to estimate future weekly sales patterns.
 - Findings: sales remain relatively stable with repeating peaks during holiday periods and dips during non-holiday periods.
@@ -35,7 +37,7 @@ The dataset includes weekly sales and contextual variables such as holiday weeks
 ## Data Cleaning Summary
 - Verified and corrected data types (date formats; numeric formats and decimals)
 - Checked missing values using filters
-- Checked duplicates using remove duplicates
+- Identified and removed duplicate records
 - Checked numeric columns for invalid negative values
 
  ## Results (Visual Insights)
@@ -60,7 +62,8 @@ Key patterns observed:
 ![Store 1 Moving Average](outputs/store_1_moving_average.png)
 ![Store 2 Moving Average](outputs/store_2_moving_average.png)
 
-## Recommendations
+## Key Insights & Recommendations
+
 - Increase inventory and staffing before seasonal peaks (holiday periods)
 - Reduce excess stock and adjust staffing during non-holiday periods to control costs
 - Use Store 2 as a benchmark for store-level planning
@@ -86,13 +89,12 @@ forecasting across multiple store locations.
    - Moving average analysis
 3. View exported charts in the `outputs/` folder.
 
-## Project Status
-Completed – academic analytics project demonstrating time series analysis and forecasting concepts.
-
-
 ## Data Source
 - Walmart Retail Dataset – Kaggle  
   https://www.kaggle.com/datasets/rutuspatel/walmart-dataset-retail
+
+## Project Status
+Completed – academic analytics project demonstrating time series analysis and forecasting concepts.
 
 ## References
 - Patel, R. (2022). Walmart dataset retail [Data set]. Kaggle.
